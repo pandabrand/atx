@@ -1,0 +1,31 @@
+.front-carousel {
+  .carousel-container {
+    background-color: white;
+    .content-container {
+      margin: 25px 10px;
+      padding: 2%;
+      color: $color-dark;
+      background-color: $image-frame;
+      text-align: center;
+      position: relative;
+      .carousel-text {
+        position: absolute;
+        text-align: center;
+        left: 25%;
+        bottom: 10%;
+        width: 50%;
+        background-color: rgba($image-frame, .7);
+        color: $color-dark;
+        padding: 2em .75em;
+        .carousel-text-title {
+          font-size: 1.5em;
+          font-weight: bold;
+        }
+        .carousel-text-body {
+          font-family: $font-text-sans-serif;
+          font-size: .75em;
+        }
+      }
+    }
+  }
+}

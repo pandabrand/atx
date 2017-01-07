@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "main.js": {
+      "bower": ["slick-carousel","modernizr","lightbox2"],
+      "files": [
+        "scripts/main.js"
+      ],
+      "main": true
+    },
+    "main.css": {
+      "bower":["slick-carousel"],
+      "files": [
+        "styles/main.scss"
+      ],
+      "main": true
+    },
+    "customizer.js": {
+      "files": [
+        "scripts/customizer.js"
+      ]
+    },
+    "jquery.js": {
+      "bower": ["jquery"]
+    },
+    "lightbox.css": {
+      "files": [
+      "../bower_components/lightbox2/src/css/lightbox.css"
+      ]
+    }
+  },
+  "config": {
+    "devUrl": "http://atx.dev"
+  }
+}

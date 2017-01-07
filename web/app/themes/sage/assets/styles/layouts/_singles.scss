@@ -1,0 +1,28 @@
+.single-chef, .single-artist {
+  .content {
+    &.row {
+      // position: absolute;
+      // width: 100%;
+      // height: 100%;
+      padding: 0;
+      main.main {
+        padding: 0;
+        .chef, .artist {
+          margin: 0;
+          // height: 100%;
+          .row {
+            // height: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+.bio-image{
+  padding: 0;
+  min-height: 400px;
+}
+.bio-content {
+  padding: 25px;
+}

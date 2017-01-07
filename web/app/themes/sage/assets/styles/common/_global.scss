@@ -1,0 +1,21 @@
+img {
+  width: 100%;
+}
+
+p {
+  font-family: $font-text-sans-serif;
+}
+.content {
+  padding: 25px 20px;
+}
+
+.image-container {
+  padding: 2%;
+  background-color: $image-frame;
+}
+
+.object-fit_fill { object-fit: fill }
+.object-fit_contain { object-fit: contain }
+.object-fit_cover { object-fit: cover }
+.object-fit_none { object-fit: none }
+.object-fit_scale-down { object-fit: scale-down }

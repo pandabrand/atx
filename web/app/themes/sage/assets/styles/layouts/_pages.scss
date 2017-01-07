@@ -1,0 +1,63 @@
+.page-header {
+  h1 {
+    margin-bottom: 1em;
+  }
+}
+
+.chef, .artist, .event {
+  margin-bottom: 2em;
+  header {
+    h2 {
+      // margin-bottom: 1em;
+      a {
+        text-decoration: none;
+        color: $color-dark;
+      }
+    }
+  }
+  .entry-summary {
+    .row {
+      .event-date-time {
+        margin-bottom: 1.5em;
+        .event-date, .event-time {
+          font-size: 1.25em;
+        }
+        .event-time {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+.chef-menu-description {
+  .run-dates {
+    margin: 1em 0;
+    font-style: italic;
+  }
+}
+.chef-menu {
+  margin: 1em 1em 4em;
+  border: $color-dark .5px solid;
+  padding: 2em;
+  .title {
+    font-weight: bold;
+    @media(max-width: 768px) {
+      margin-top: 2em;
+    }
+  }
+  .description {
+    font-size: .75em;
+  }
+  .menu-notes {
+    font-size: .65em;
+    font-style: italic;
+  }
+  .menu-spacer {
+    margin: 1em 0;
+    border-top: $color-light .5px solid;
+    &:last-child {
+      border: none;
+    }
+  }
+}

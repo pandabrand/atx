@@ -1,0 +1,39 @@
+{
+  "name": "sage",
+  "homepage": "https://roots.io/sage/",
+  "authors": [
+    "Ben Word <ben@benword.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "git://github.com/twbs/bootstrap.git#v4.0.0-alpha.5",
+    "jquery": "~3.1.1",
+    "modernizr": "~3.3.1",
+    "fontawesome": "~4.7.0",
+    "slick-carousel": "~1.6.0",
+    "lightbox2": "~2.9.0"
+  },
+  "overrides": {
+    "slick-carousel": {
+      "main": [
+        "./slick/slick.min.js",
+        "./slick/slick.scss",
+        "./slick/slick-theme.scss",
+        "./slick/fonts/*"
+      ]
+    },
+    "fontawesome": {
+      "main": [
+        "./scss/font-awesome.scss",
+        "./fonts/*"
+      ]
+    },
+    "lightbox2": {
+      "main": [
+        "./dist/js/lightbox.min.js",
+        "./src/css/lightbox.css"
+      ]
+    }
+  }
+}
