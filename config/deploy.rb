@@ -96,6 +96,8 @@ set :production_assets, [
   'dist/images/loading.gif',
   'dist/images/new-logo.png',
   'dist/images/new-logo@x2.png',
+  'dist/images/COLLIDE-ATX.png',
+  'dist/images/COLLIDE-ATX@2x.png',
   'dist/images/next.png',
   'dist/images/prev.png',
   'dist/fonts/fontawesome-webfont.eot',

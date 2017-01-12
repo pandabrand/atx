@@ -54,7 +54,8 @@
     "wpackagist-plugin/official-mailerlite-sign-up-forms":"dev-master",
     "wpackagist-plugin/popup-maker":"*",
     "wpackagist-plugin/the-events-calendar":"*",
-    "wpackagist-plugin/the-events-calendar-shortcode":"*"
+    "wpackagist-plugin/the-events-calendar-shortcode":"*",
+    "wpackagist-plugin/regenerate-thumbnails":"*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"
