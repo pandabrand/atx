@@ -13,6 +13,17 @@ function load_google_fonts() {
 }
 add_action('wp_head', 'load_google_fonts', 1);
 
+/*
+ *
+ * To delete the ATX Event Post Type
+ *
+ */
+
+function delete_post_type_event(){
+	unregister_post_type( 'event' );
+}
+add_action('init','delete_post_type_event');
+
 /**
  * Retrieve full name for Artist and Chef Post Types.
  *
