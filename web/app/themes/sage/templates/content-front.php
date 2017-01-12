@@ -12,16 +12,8 @@
     </div>
     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 pad-right">
       <aside>
-        <script type="text/javascript" src="//static.mailerlite.com/data/webforms/258122/r6a9p8.js?v1"></script>
-        <div class="social-links">
-          <a href="#" target="_blank" class="social-link"><i class="fa fa-twitter fa-lg"></i></a>
-          <a href="#" target="_blank" class="social-link"><i class="fa fa-facebook fa-lg"></i></a>
-          <a href="#" target="_blank" class="social-link"><i class="fa fa-instagram fa-lg"></i></a>
-          <a href="#" target="_blank" class="social-link"><i class="fa fa-pinterest fa-lg"></i></a>
-          <a href="#" target="_blank" class="social-link"><i class="fa fa-youtube-play fa-lg"></i></a>
-          <a href="#" target="_blank" class="social-link"><i class="fa fa-tumblr fa-lg"></i></a>
-          <a href="#" target="_blank" class="social-link"><i class="fa fa-spotify fa-lg"></i></a>
-        </div>
+        <?php get_template_part('templates/sidebar'); ?>
+        <!-- script type="text/javascript" src="//static.mailerlite.com/data/webforms/258122/r6a9p8.js?v1"></script -->
       </aside>
     </div>
   </div>

@@ -15,13 +15,13 @@
         ?>
         <img src="<?php echo esc_url( $img_src ); ?>"
              srcset="<?php echo esc_attr( $img_srcset ); ?>"
-             sizes="(min-width: 80em) 33.75em, 540px">
+             sizes="(min-width: 80em) 33.75em, 540px" class="img-fluid">
       </div>
       <div class="col-md-12 col-lg-6">
         <div class="teaser-text">
           <?php echo the_field('teaser_text'); ?>
         </div>
-        <a href="<?php the_permalink(); ?>" class="btn btn-outline-secondary">Read More</a>
+        <a href="<?php the_permalink(); ?>">Read More <i class="fa fa-angle-double-right"></i></a>
       </div>
     </div>
   </div>

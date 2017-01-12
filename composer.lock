@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "05f83ac29b8edcddd6cfbc5297b1e1d7",
+    "content-hash": "d61083411000ada8ffe62e117d6f37ed",
     "packages": [
         {
             "name": "composer/installers",
@@ -290,7 +290,7 @@
                 "source": "https://github.com/pandabrand/collide-atx/tree/master",
                 "issues": "https://github.com/pandabrand/collide-atx/issues"
             },
-            "time": "2017-01-04T18:13:12+00:00"
+            "time": "2017-01-12T05:59:53+00:00"
         },
         {
             "name": "roots/wp-password-bcrypt",
@@ -400,36 +400,16 @@
             "time": "2016-09-01T10:05:43+00:00"
         },
         {
-            "name": "wpackagist-plugin/advanced-excerpt",
-            "version": "4.2.3",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/advanced-excerpt/",
-                "reference": "tags/4.2.3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-excerpt.4.2.3.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/advanced-excerpt/"
-        },
-        {
             "name": "wpackagist-plugin/ninja-forms",
-            "version": "3.0.20",
+            "version": "3.0.22",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ninja-forms/",
-                "reference": "tags/3.0.20"
+                "reference": "tags/3.0.22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.0.20.zip",
+                "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.0.22.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -461,6 +441,26 @@
             "time": "2016-10-06T14:33:50+00:00"
         },
         {
+            "name": "wpackagist-plugin/popup-maker",
+            "version": "1.4.21",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/popup-maker/",
+                "reference": "tags/1.4.21"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/popup-maker.1.4.21.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/popup-maker/"
+        },
+        {
             "name": "wpackagist-plugin/safe-redirect-manager",
             "version": "1.7.8",
             "source": {
@@ -479,6 +479,46 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/safe-redirect-manager/"
+        },
+        {
+            "name": "wpackagist-plugin/the-events-calendar",
+            "version": "4.4.0.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/the-events-calendar/",
+                "reference": "tags/4.4.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/the-events-calendar.4.4.0.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/the-events-calendar/"
+        },
+        {
+            "name": "wpackagist-plugin/the-events-calendar-shortcode",
+            "version": "1.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/the-events-calendar-shortcode/",
+                "reference": "tags/1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/the-events-calendar-shortcode.1.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/the-events-calendar-shortcode/"
         }
     ],
     "packages-dev": [

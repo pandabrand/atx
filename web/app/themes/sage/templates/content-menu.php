@@ -47,22 +47,6 @@
       </div>
     <?php endif; ?>
   <?php endwhile; ?>
-  <div class="row">
-    <div class="col-xs-12 col-sm-6 image-container">
-      <?php
-      $image = get_field('biography_image');
-      $img_src = wp_get_attachment_image_url( $image['ID'], 'small' );
-      $img_srcset = wp_get_attachment_image_srcset( $image['ID'], 'small' );
-      ?>
-      <img src="<?php echo esc_url( $img_src ); ?>"
-           srcset="<?php echo esc_attr( $img_srcset ); ?>"
-           >
-    </div>
-    <div class="col-xs-12 col-sm-6">
-      <a href="<?php the_permalink(); ?>"><?php echo the_full_name(get_the_ID()); ?></a>
-      <br/>Biography here
-    </div>
-  </div>
 <?php endif; ?>
 <?php the_content(); ?>
 <?php wp_link_pages(['before' => '<nav class="page-nav"><p>' . __('Pages:', 'sage'), 'after' => '</p></nav>']); ?>

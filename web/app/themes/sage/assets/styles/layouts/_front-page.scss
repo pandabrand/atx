@@ -9,7 +9,7 @@
 .social-links {
   margin: 25px 0;
   .social-link {
-    padding: 0 15px;
+    padding: 0 10px;
     border-left: solid 1px black;
     &:first-child {
       border: none;
@@ -25,7 +25,13 @@
   color: $color-light;
   font-size: 1.25em;
   padding: 1em;
-  margin: 0 16px;
+  margin: 0 0 16px;
+  p {
+    margin-bottom: 1rem;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
 }
 
 .front-events {
@@ -55,4 +61,68 @@
       }
     }
   }
+}
+
+.ecs-event-list {
+  list-style: none;
+  padding: 0;
+  .ecs-event {
+    @include make-row();
+    padding-bottom: 1.5em;
+    padding-top: .5em;
+    border-bottom: $color-light solid 1px;
+    &:last-child {
+      border: none;
+    }
+    h4 {
+      @include make-col-ready();
+      @include make-col(12);
+      a {
+        padding: 0;
+        background-color: transparent;
+        text-decoration: none;
+      }
+    }
+    a {
+      @include make-col-ready();
+      padding: 2%;
+      background-color: $image-frame;
+      @media(max-width: 540px) {
+        @include make-col(12);
+      }
+      @include make-col(6);
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+    .ecs-excerpt {
+      @include make-col-ready();
+      @media(max-width: 540px) {
+        @include make-col(12);
+      }
+      @include make-col(6);
+    }
+    .duration {
+      @include make-col-ready();
+      @include make-col(12);
+      font-weight: 700;
+    }
+  }
+}
+
+.upcoming {
+  text-align: center;
+  padding: 1%;
+  border: $image-frame solid 1px;
+  h3 {
+    font-family: $display-text;
+  }
+}
+
+.membership-link {
+  padding: 5%;
+  margin: 5% 0;
+  border: $image-frame solid 1px;
+  text-align: center;
 }

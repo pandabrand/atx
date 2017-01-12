@@ -9,7 +9,7 @@ add_filter('get_the_archive_title', function($title){
 });
 
 function load_google_fonts() {
-  echo '<link href="http://fonts.googleapis.com/css?family=HIND:400,700|Roboto" rel="stylesheet" type="text/css" />'."\n";
+  echo '<link href="http://fonts.googleapis.com/css?family=HIND:400,700|Roboto|Bungee+Inline" rel="stylesheet" type="text/css" />'."\n";
 }
 add_action('wp_head', 'load_google_fonts', 1);
 

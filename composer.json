@@ -47,12 +47,14 @@
     "johnpbloch/wordpress": "4.7",
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
-    "wpackagist-plugin/advanced-excerpt":"*",
     "wpackagist-plugin/safe-redirect-manager":"*",
     "wpackagist-plugin/ninja-forms":"*",
     "pandabrand/collide-atx":"dev-master",
     "elliotcondon/advanced-custom-fields-pro":"*",
-    "wpackagist-plugin/official-mailerlite-sign-up-forms":"dev-master"
+    "wpackagist-plugin/official-mailerlite-sign-up-forms":"dev-master",
+    "wpackagist-plugin/popup-maker":"*",
+    "wpackagist-plugin/the-events-calendar":"*",
+    "wpackagist-plugin/the-events-calendar-shortcode":"*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"

@@ -1,6 +1,15 @@
 .front-carousel {
   .carousel-container {
     background-color: white;
+    .display-header {
+      font-family: $display-text;
+      font-size: 2.5em;
+      text-align: center;
+      .display-date {
+        font-family: $font-text-sans-serif;
+        font-size: 1rem;
+      }
+    }
     .content-container {
       margin: 25px 10px;
       padding: 2%;
@@ -24,6 +33,9 @@
         .carousel-text-body {
           font-family: $font-text-sans-serif;
           font-size: .75em;
+          p {
+            margin-bottom: .25rem;
+          }
         }
       }
     }

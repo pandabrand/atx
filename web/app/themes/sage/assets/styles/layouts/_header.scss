@@ -1,3 +1,21 @@
 .site-header, .bg-custom {
   background-color: $navbar-background;
 }
+
+.slogan-header {
+  float: left;
+  width: initial;
+  line-height: 4.5;
+  color: $color-light;
+  padding: 7px 0 0;
+}
+
+.nav-link {
+  line-height: 4.5;
+}
+
+.navbar-brand {
+  img {
+    height: 75px;
+  }
+}
