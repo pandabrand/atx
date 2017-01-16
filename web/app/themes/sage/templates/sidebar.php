@@ -1,10 +1,16 @@
 <div>
   <address>
     <h5>Come Join Us</h5>
-    <a href="https://www.google.com/maps/place/1802+E+6th+St,+Austin,+TX+78702/@30.2622365,-97.7253246,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b5b6fba59221:0x2758a79d2d61b7f3!8m2!3d30.2622365!4d-97.7231359" target="_blank">1802 E. 6th Street</a><br>
-    Austin, Texas 78702<br>
-    <a href="tel:1-512-609-8174">512.609.8174</a><br>
-    <a href="mailto:collideatx@wearecollide.com">collideatx@wearecollide.com</a>
+    <div class="row">
+      <div class="col-xs-6 address-left">
+        <a href="https://www.google.com/maps/place/1802+E+6th+St,+Austin,+TX+78702/@30.2622365,-97.7253246,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b5b6fba59221:0x2758a79d2d61b7f3!8m2!3d30.2622365!4d-97.7231359" target="_blank">1802 E. 6th St.</a><br>
+        Austin, TX 78702<br>
+        <a href="tel:1-512-609-8174">512.609.8174</a><br>
+      </div>
+      <div class="col-xs-6 address-right">
+        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/dist/images/COLLIDE-ATX-square.png" srcset="<?php echo get_template_directory_uri(); ?>/dist/images/COLLIDE-ATX-square.png 1x, <?php echo get_template_directory_uri(); ?>/dist/images/COLLIDE-ATX-square@2x.png 2x" />
+      </div>
+    </div>
   </address>
   <address>
     <h5>Hours</h5>

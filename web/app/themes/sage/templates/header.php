@@ -3,7 +3,7 @@
     <nav class="navbar navbar-dark navbar-full bg-custom" role="navigation">
       <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#navbar-header" aria-controls="navbar-header" aria-expanded="false" aria-label="Toggle navigation"></button>
       <div class="collapse navbar-toggleable-md" id="navbar-header">
-        <a class="navbar-brand brand" href="<?= esc_url(home_url('/')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/COLLIDE-ATX.png" srcset="<?php echo get_template_directory_uri(); ?>/dist/images/COLLIDE-ATX.png 1x, <?php echo get_template_directory_uri(); ?>/dist/images/COLLIDE-ATX@2x.png 2x"/></a>
+        <a class="navbar-brand brand" href="<?= esc_url(home_url('/')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/COLLIDE-CLEAN-ATX-HORIZONTAL.png" srcset="<?php echo get_template_directory_uri(); ?>/dist/images/COLLIDE-CLEAN-ATX-HORIZONTAL.png 1x, <?php echo get_template_directory_uri(); ?>/dist/images/COLLIDE-CLEAN-ATX-HORIZONTAL@2x.png 2x"/></a>
         <div class="slogan-header">EAT, DRINK, CREATE</div>
         <div class="float-lg-right">
           <?php

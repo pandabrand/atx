@@ -1,3 +1,16 @@
+@font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/Montserrat-Regular.otf?") format("otf");
+}
+@font-face {
+    font-family: "Montserrat-Bold";
+    font-style: bold;
+    font-weight: 700;
+    src: url("../fonts/Montserrat-Bold.otf?") format("otf");
+}
+
 p {
   font-family: $font-text-sans-serif;
 }

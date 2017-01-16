@@ -5,11 +5,11 @@
       <div class="footer-links col-xs-12 col-sm-8">
         <div class="cc-brand-link">
           Take a tour with today's top bands, artists and tastemakers
-          <a class="footer-brand" href="http://www.collidetravel.com" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/new-logo.png" srcset="<?php echo get_template_directory_uri(); ?>/dist/images/new-logo.png 1x, <?php echo get_template_directory_uri(); ?>/dist/images/new-logo@x2.png 2x"/></a>
+          <a class="footer-brand" href="http://www.collidetravel.com" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/collide-travel-footers.png" srcset="<?php echo get_template_directory_uri(); ?>/dist/images/collide-travel-footers.png 1x, <?php echo get_template_directory_uri(); ?>/dist/images/collide-travel-footers@2x.png 2x"/></a>
         </div>
         <div class="cc-brand-link">
           Curating the most inspiring music, travel and culinary the globe has to offer.
-          <a class="footer-brand" href="http://www.culturecollide.com/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/new-logo.png" srcset="<?php echo get_template_directory_uri(); ?>/dist/images/new-logo.png 1x, <?php echo get_template_directory_uri(); ?>/dist/images/new-logo@x2.png 2x"/></a>
+          <a class="footer-brand" href="http://www.culturecollide.com/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/culture-collide-footers.png" srcset="<?php echo get_template_directory_uri(); ?>/dist/images/culture-collide-footers.png 1x, <?php echo get_template_directory_uri(); ?>/dist/images/culture-collide-footers@2x.png 2x"/></a>
         </div>
       </div>
     </div>
