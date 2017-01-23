@@ -1,5 +1,5 @@
 set :stage, :production
-set :deploy_to, -> { "/home/187805/users/.home/#{fetch(:application)}" }
+set :deploy_to, -> { "/home/187805/domains/collideatx.com/html" }
 set :tmp_dir, "/home/187805/users/.home/capistrano_tmp"
 
 # Simple Role Syntax
