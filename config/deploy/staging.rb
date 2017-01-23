@@ -1,5 +1,5 @@
 set :stage, :staging
-set :deploy_to, -> { "/home/dh_pjqm28/#{fetch(:application)}" }
+set :deploy_to, -> { "/home/dh_pjqm28/atx.pandabrand.net" }
 set :tmp_dir, "/home/dh_pjqm28/capistrano_tmp"
 
 # Simple Role Syntax

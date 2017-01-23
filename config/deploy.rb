@@ -1,4 +1,4 @@
-set :application, 'atx.pandabrand.net'
+set :application, 'collideatx.com'
 set :repo_url, 'git@github.com:pandabrand/atx.git'
 
 # Branch options
