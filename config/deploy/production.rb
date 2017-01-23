@@ -12,7 +12,7 @@ set :tmp_dir, "/home/187805/users/.home/capistrano_tmp"
 # ======================
 server 's187805.gridserver.com', user: 'wearecollide.com', roles: %w{web app db}
 
-SSHKit.config.command_map[:composer] = "/home/187805/users/.home/install/bin/composer"
+SSHKit.config.command_map[:composer] = "/home/187805/users/.home/install/bin/composer -vvv"
 # you can set custom ssh options
 # it's possible to pass any option but you need to keep in mind that net/ssh understand limited list of options
 # you can see them in [net/ssh documentation](http://net-ssh.github.io/net-ssh/classes/Net/SSH.html#method-c-start)
