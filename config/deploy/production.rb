@@ -13,7 +13,7 @@ set :tmp_dir, "/home/187805/users/.home/capistrano_tmp"
 server 's187805.gridserver.com', user: 'wearecollide.com', roles: %w{web app db}
 
 SSHKit.config.command_map[:php] = "/usr/bin/php-latest"
-SSHKit.config.command_map[:composer] = "/home/187805/users/.home/install/bin/composer"
+SSHKit.config.command_map[:composer] = "php -d allow_url_fopen=on /home/187805/users/.home/install/bin/composer"
 set :composer_install_flags, '--no-dev --prefer-dist --no-interaction --optimize-autoloader -vvv'
 
 
