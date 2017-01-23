@@ -1,6 +1,6 @@
-set :stage, :staging
-set :deploy_to, -> { "/home/dh_pjqm28/#{fetch(:application)}" }
-set :tmp_dir, "/home/dh_pjqm28/capistrano_tmp"
+set :stage, :production
+set :deploy_to, -> { "/home/187805/users/.home/#{fetch(:application)}" }
+set :tmp_dir, "/home/187805/users/.home/capistrano_tmp"
 
 # Simple Role Syntax
 # ==================
@@ -10,7 +10,7 @@ set :tmp_dir, "/home/dh_pjqm28/capistrano_tmp"
 
 # Extended Server Syntax
 # ======================
-server 'cottrell.dreamhost.com', user: 'dh_pjqm28', roles: %w{web app db}
+server 's187805.gridserver.com', user: 'wearecollide.com', roles: %w{web app db}
 
 # you can set custom ssh options
 # it's possible to pass any option but you need to keep in mind that net/ssh understand limited list of options
@@ -22,4 +22,4 @@ server 'cottrell.dreamhost.com', user: 'dh_pjqm28', roles: %w{web app db}
 #    auth_methods: %w(password)
 #  }
 
-fetch(:default_env).merge!(wp_env: :staging)
+fetch(:default_env).merge!(wp_env: :production)

@@ -9,8 +9,6 @@ set :repo_url, 'git@github.com:pandabrand/atx.git'
 # This could be overridden in a stage config file
 set :branch, :master
 
-set :deploy_to, -> { "/home/dh_pjqm28/#{fetch(:application)}" }
-
 # Use :debug for more verbose output when troubleshooting
 set :log_level, :debug
 
@@ -19,7 +17,6 @@ set :log_level, :debug
 set :linked_files, fetch(:linked_files, []).push('.env', 'web/.htaccess')
 #set :linked_files, fetch(:linked_files, []).push('.env')
 set :linked_dirs, fetch(:linked_dirs, []).push('web/app/uploads')
-set :tmp_dir, "/home/dh_pjqm28/capistrano_tmp"
 
 namespace :deploy do
   desc 'Restart application'
