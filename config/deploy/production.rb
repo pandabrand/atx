@@ -1,5 +1,5 @@
 set :stage, :production
-set :deploy_to, -> { "/home/187805/domains/collideatx.com/html" }
+set :deploy_to, -> { "/home/187805/domains/collideatx.com" }
 set :tmp_dir, "/home/187805/users/.home/capistrano_tmp"
 
 # Simple Role Syntax
@@ -28,3 +28,5 @@ set :composer_install_flags, '--no-dev --prefer-dist --no-interaction --optimize
 #  }
 
 fetch(:default_env).merge!(wp_env: :production)
+
+after 'deploy:publishing', 'gridserver:create_relative_symlinks'
