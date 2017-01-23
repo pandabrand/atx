@@ -46,7 +46,6 @@
     "vlucas/phpdotenv": "^2.0.1",
     "johnpbloch/wordpress": "4.7",
     "oscarotero/env": "^1.0",
-    "roots/wp-password-bcrypt": "1.0.0",
     "wpackagist-plugin/safe-redirect-manager":"*",
     "wpackagist-plugin/ninja-forms":"*",
     "pandabrand/collide-atx":"dev-master",
