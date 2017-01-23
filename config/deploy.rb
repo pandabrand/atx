@@ -10,7 +10,7 @@ set :repo_url, 'git@github.com:pandabrand/atx.git'
 set :branch, :master
 
 # Use :debug for more verbose output when troubleshooting
-set :log_level, :warn
+set :log_level, :debug
 
 # Apache users with .htaccess files:
 # it needs to be added to linked_files so it persists across deploys:
