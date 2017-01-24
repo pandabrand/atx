@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d235567f8e25df8939466bd6f0da60d1",
+    "content-hash": "58625d13f4b6af7227d173cf0a05c383",
     "packages": [
         {
             "name": "composer/installers",
@@ -290,7 +290,7 @@
                 "source": "https://github.com/pandabrand/collide-atx/tree/master",
                 "issues": "https://github.com/pandabrand/collide-atx/issues"
             },
-            "time": "2017-01-12T23:35:45+00:00"
+            "time": "2017-01-24T17:03:25+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -482,6 +482,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/the-events-calendar-shortcode/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-maintenance-mode",
+            "version": "2.0.9",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-maintenance-mode/",
+                "reference": "tags/2.0.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-maintenance-mode.2.0.9.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-maintenance-mode/"
         }
     ],
     "packages-dev": [

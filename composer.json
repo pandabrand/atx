@@ -54,7 +54,8 @@
     "wpackagist-plugin/popup-maker":"*",
     "wpackagist-plugin/the-events-calendar":"*",
     "wpackagist-plugin/the-events-calendar-shortcode":"*",
-    "wpackagist-plugin/regenerate-thumbnails":"*"
+    "wpackagist-plugin/regenerate-thumbnails":"*",
+    "wpackagist-plugin/wp-maintenance-mode":"*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"
