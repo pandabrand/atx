@@ -20,12 +20,12 @@
       .carousel-text {
         position: absolute;
         text-align: center;
-        left: 25%;
+        left: 5%;
         bottom: 10%;
-        width: 50%;
+        width: 90%;
         background-color: rgba($image-frame, .7);
         color: $color-dark;
-        padding: 2em .75em;
+        padding: .75em .75em;
         .carousel-text-title {
           font-size: 1.5em;
           font-weight: bold;
@@ -36,6 +36,12 @@
           p {
             margin-bottom: .25rem;
           }
+        }
+        @media(max-width: 768px) {
+          position: inherit;
+          width: 100%;
+          left: auto;
+          bottom: auto;
         }
       }
     }
