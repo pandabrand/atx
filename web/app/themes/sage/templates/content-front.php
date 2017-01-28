@@ -8,6 +8,7 @@
         </div>
       </div>
       <?php get_template_part('templates/content', 'front_events'); ?>
+      <?php get_template_part('templates/content', 'front_news'); ?>
       <?php wp_link_pages(['before' => '<nav class="page-nav"><p>' . __('Pages:', 'sage'), 'after' => '</p></nav>']); ?>
     </div>
     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 pad-right">

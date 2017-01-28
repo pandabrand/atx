@@ -4,6 +4,7 @@
     <?php get_template_part('templates/entry-meta'); ?>
   </header>
   <div class="entry-summary">
+    <?php the_post_thumbnail('post-thumbnail', ['class' => 'img-responsive responsive--full', 'title' => 'Feature image']); ?>
     <?php the_excerpt(); ?>
   </div>
 </article>

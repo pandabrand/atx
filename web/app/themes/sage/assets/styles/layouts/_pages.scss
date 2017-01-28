@@ -40,8 +40,12 @@
     font-style: italic;
   }
 }
+.chef-menu-group {
+  padding-left: 1rem;
+  font-weight: 700;
+}
 .chef-menu {
-  margin: 1em 1em 4em;
+  margin: 1em 0 4em;
   border: $color-dark .5px solid;
   padding: 2em;
   .title {
