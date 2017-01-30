@@ -15,10 +15,21 @@
   font-family: $font-family-menu;
   text-transform: uppercase;
   line-height: 4.5;
+  @media(max-width: 768px) {
+    line-height: 1.5;
+  }
 }
 
 .navbar-brand {
   img {
     height: 75px;
+  }
+}
+
+.toggle-wrap {
+  position: relative;
+  .toggle-button {
+    position: absolute;
+    top: 25%;
   }
 }

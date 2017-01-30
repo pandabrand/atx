@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "main.js": {
-      "bower": ["slick-carousel","modernizr","lightbox2"],
+      "bower": ["bootstrap","slick-carousel","modernizr","lightbox2","tether"],
       "files": [
         "scripts/main.js"
       ],

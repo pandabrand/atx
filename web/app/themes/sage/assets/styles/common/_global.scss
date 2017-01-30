@@ -23,6 +23,10 @@ p {
   background-color: $image-frame;
 }
 
+.invert-color {
+  filter: invert(100%);
+}
+
 .object-fit_fill { object-fit: fill }
 .object-fit_contain { object-fit: contain }
 .object-fit_cover { object-fit: cover }
