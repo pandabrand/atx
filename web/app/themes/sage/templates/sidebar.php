@@ -15,8 +15,7 @@
   <address>
     <h5>Hours</h5>
     Sunday 11am-10pm<br>
-    Monday-Thursday 5pm - 10pm<br>
-    Friday-Saturday 11am - 12am
+    Monday-Saturday 11am-12am<br>
   </address>
 </div>
 <div class="social-links">
