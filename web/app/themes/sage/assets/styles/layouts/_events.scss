@@ -1,0 +1,31 @@
+.type-tribe_events {
+  @include make-row();
+  .tribe-events-event-cost {
+    @include make-col(1);
+    order: 2;
+    margin: 0;
+  }
+  .tribe-events-list-event-title {
+    @include make-col(11);
+    order: 1;
+  }
+  .tribe-events-event-meta {
+    @include make-col(12);
+    order: 3;
+  }
+  .tribe-events-event-image {
+    @include make-col(6);
+    margin: 0;
+    order: 4;
+    padding: 2%;
+    background-color: $image-frame;
+    @media(max-width: 540px) {
+      @include make-col(12);
+    }
+  }
+  .tribe-events-list-event-description {
+    @include make-col(6);
+    order: 5;
+    padding: 0 0 0 5%;
+  }
+}

@@ -11,3 +11,31 @@
     font-family: $font-text-sans-serif;
   }
 }
+
+.entry-summary {
+  @include make-row();
+  .entry-summary-image {
+    @include make-col-ready();
+    padding: 2%;
+    background-color: $image-frame;
+    @media(max-width: 540px) {
+      @include make-col(12);
+    }
+    @include make-col(6);
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .entry-summary-excerpt {
+    @include make-col-ready();
+    @media(max-width: 540px) {
+      @include make-col(12);
+    }
+    @include make-col(6);
+  }
+}
+
+.category-news {
+  padding-bottom: 1.5em;
+}
